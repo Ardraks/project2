@@ -9,11 +9,12 @@ import Page from './components/Page';
 import Name from './components/Name';
 import Forms from './components/Forms';
 import New from './components/New';
+import Validation from './components/Validation';
 
 function App() {
   return (
     <div className="App">
-      <New/>
+      <Validation/>
     </div>
   );
 }
